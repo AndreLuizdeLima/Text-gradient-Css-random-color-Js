@@ -5,10 +5,6 @@ randcoltwo = colors[Math.floor(Math.random() * colors.length)];
 gradcol = '-webkit-linear-gradient(left,' + randcol + ' ,' + randcoltwo + ')';
 if (randcol != randcoltwo ){
 document.getElementById('randomgrad').style.backgroundImage = gradcol;
-}
-else{
-    color(color)
-}
-}
+}}
 
 setInterval(color,300)
